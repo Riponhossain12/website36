@@ -1,0 +1,17 @@
+body{
+	margin: 0;
+	font-family: tahoma,sans-serif,arial;
+
+}
+.image{
+	width: 
+	1000px;
+	height: 600px;
+	float: left;
+	padding: 0px 150px;
+}
+
+.text{
+	text-transform: capitalize;
+      color:  #064d24;
+}

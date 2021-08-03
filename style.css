@@ -1,0 +1,253 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+	margin: 0;
+	font-family: tahoma,sans-serif,arial;
+
+}
+.main-menu{
+	background: #064d24;
+}
+
+.main-menu:after{
+	content: '';
+	display: block;
+	clear: both;
+
+
+}
+
+/*** image**/
+.image
+{
+	width: 200px;
+	height: 100px;
+	float: left;
+	padding: 0px 30px;
+}
+
+
+.main-menu ul{
+	margin: 0;
+	list-style: none;
+	float: right;
+    z-index: 999;
+
+}
+/*** porer {} e moddy sub menur kaj**/
+.main-menu>ul> li{
+	float:left; 
+	margin-right: 3px;
+	position: relative;
+
+
+}
+
+
+.main-menu ul li a{
+	color: #FFFFFF; 
+	text-decoration: none;
+	text-transform: capitalize;
+	padding: 32px 20px;
+	display: block;
+
+}
+.main-menu ul li:hover a{
+	background: white;
+	color: black;
+
+}
+.main-menu ul.anything a{
+	background: white;
+}
+
+.main-content{
+
+overflow: hidden;
+}
+
+/*** sub menu**/
+.main-menu ul ul{
+	padding-left: 0;
+	background: red;
+	position: absolute;
+    left: 0;
+    top: 100%;
+    min-width: 200px;
+  display: none;
+  padding: 0;
+}
+
+.main-menu ul li:hover> ul{
+	display: block;
+	padding: 0;
+
+}
+/***about bcb er sub menur hover color**/
+.main-menu ul ul li:hover a{
+	background: #2980b9;
+     padding: 10px;
+}
+/**history er sub menur kaj **/
+.main-menu ul ul li{
+	position: relative;
+}
+.main-menu ul ul ul{
+	left:100%;
+	top: 0;
+}
+.main-menu ul ul ul li:hover a{
+	background: yellow;
+	
+}
+
+.container
+{
+    max-width: 1000px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.name
+{
+  
+    margin: 0 auto;
+    padding: 40px 0px 40px 0px;
+    text-align: center;
+
+}
+
+.name img
+{
+    width: 260px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+.name h1
+{
+    padding-bottom: 40px;
+    font-size: 40px;
+}
+
+hr{
+    max-width: 935px;
+    margin: 0 auto;
+    padding: 0px 20px ;
+}
+
+.bio
+{
+    padding: 40px 10px ;
+    text-align: justify;
+}
+
+.bio p
+{
+    line-height: 22px;
+
+}
+
+.sponsor
+{
+    max-width: 1000px;
+    background: rgb(230, 230, 226);
+    margin: 0 auto;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.sponsordiv
+{
+    
+    padding: 40px 0px ;
+}
+
+.sponsordiv img
+{
+    max-width: 900px;
+    margin: 40px 0px ;
+}
+
+.sponsordiv p:first-child 
+{
+    
+    font-size: 40px;
+}
+
+.sponsordiv p:last-child
+{
+    font-size: 18px;
+}
+
+
+
+.logo img
+{
+    width: 400px;
+    color: black;
+    padding: 40px 20px ;
+}
+
+.about h1
+{
+    padding-bottom: 20px ;
+}
+
+.about p:first-of-type
+{
+    padding: 0px 20px 20px;
+}
+
+.about p:last-of-type
+{
+    padding: 0px 20px 20px;
+
+}
+
+.about a 
+{
+    text-decoration: none;
+    color: #537f16;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bottom-container
+{
+
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.bottom-container a 
+{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+}
+.bottom-container p
+{
+    color: white ;
+    margin-top: 20px;
+}

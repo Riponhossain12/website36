@@ -1,0 +1,22 @@
+
+.container{
+	width: 1200;
+	background:white;
+	display: block;
+
+}
+.div1 {
+	float: left;
+	padding: 0px;
+	height: 300px;
+	width: 350px;
+
+}
+.div2 {
+	float: left;
+	padding:50px;
+	height: 100px;
+	width: 700px;
+
+}
+

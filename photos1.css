@@ -1,0 +1,243 @@
+*{
+	text-transform: capitalize;
+}
+body{
+	margin: 0;
+	font-family: tahoma,sans-serif,arial;
+
+}
+.main-menu{
+	background: #064d24;
+}
+
+.main-menu:after{
+	content: '';
+	display: block;
+	clear: both;
+
+
+}
+
+/*** image**/
+.image
+{
+	width: 200px;
+	height: 100px;
+	float: left;
+	padding: 0px 30px;
+}
+
+
+.main-menu ul{
+	margin: 0;
+	list-style: none;
+	float: right;
+	z-index: 999;
+
+}
+/*** porer {} e moddy sub menur kaj**/
+.main-menu>ul> li{
+	float:left; 
+	margin-right: 3px;
+	position: relative;
+
+
+}
+
+
+.main-menu ul li a{
+	color: #FFFFFF; 
+	text-decoration: none;
+	text-transform: capitalize;
+	padding: 32px 20px;
+	display: block;
+
+}
+.main-menu ul li:hover a{
+	background: white;
+	color: black;
+
+}
+.main-menu ul.anything a{
+	background: white;
+}
+
+.main-content{
+
+overflow: hidden;
+}
+
+/*** sub menu**/
+.main-menu ul ul{
+	padding-left: 0;
+	background: red;
+	position: absolute;
+    left: 0;
+    top: 100%;
+    min-width: 200px;
+  display: none;
+  padding: 0;
+}
+
+.main-menu ul li:hover> ul{
+	display: block;
+	padding: 0;
+
+}
+/***about bcb er sub menur hover color**/
+.main-menu ul ul li:hover a{
+	background: #2980b9;
+     padding: 10px;
+}
+/**history er sub menur kaj **/
+.main-menu ul ul li{
+	position: relative;
+}
+.main-menu ul ul ul{
+	left:100%;
+	top: 0;
+}
+.main-menu ul ul ul li:hover a{
+	background: yellow;
+	
+}
+.container
+{
+	width: 1000px;
+	margin: auto;
+}
+.div2
+
+{
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+
+.image1
+{
+	width: 100%;
+	display: block;
+}
+.text-wrapper
+{
+	width: 100%;
+	position: absolute;
+	top: 50px;
+	transform: translate(5%, 572%);
+}
+
+.text-wrapper h1
+{
+	font-size: 27px;
+}
+/***photo**/
+.div3
+{
+	width: 100%;
+	height: auto;
+	position: relative;
+
+}
+
+.image1
+{
+	width: 100%;
+	display: block;
+	padding: 40px;
+}
+.text-wrapper
+{
+	width: 100%;
+	position: absolute;
+	top: 50px;
+	transform: translate(5%, 572%);
+}
+
+.text-wrapper h1
+{
+	font-size: 27px;
+}
+FiroZ AL HasaN
+FiroZ sent Today at 11:00 AM
+.half-image
+{
+	width: 750px;
+	margin: 0 auto;
+	box-shadow: black 0px 0px 1px 0px ;
+	border-radius: 5px;
+	box-sizing: border-box;
+	margin-bottom: 40px;
+}
+
+.half-image img
+{
+	padding: 12px 12px 0px;
+}
+
+.div4
+{
+	display: flex;
+	flex-flow: row;
+	justify-content: space-around;
+}
+
+.container-image img
+{
+	width: 350px;
+}
+
+.container-image1 img
+{
+	width: 350px;
+}
+
+ span
+{
+	padding: 0px 12px 5px ;
+	color: #aec3c0;
+	font-size: 12px;
+	line-height: 15px;
+	font-weight: bold;
+}
+
+ h3
+{
+	padding: 0px 12px 12px ;
+	font-family: AustinNewstextRoman,Georgia,Times,serif;
+    color: #274945;
+    font-weight: 600;
+    margin: 0 0 5px;
+    padding-bottom: 10px;
+    line-height: 1.17;
+
+}
+
+.line
+{
+	border: 2px solid #aec3c0;
+	border-bottom: none;
+	width: 350px;
+	margin:0 auto;
+}
+
+.ports
+{
+	padding: 0;
+    line-height: 1.4;
+    margin: 10px 12px 0px ;
+	height: 55px;
+	font-family: AustinNewstextRoman,Georgia,Times,serif;
+    background-color: #fff;
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    letter-spacing: normal;
+}
+
+.comon-hr
+{
+	width: 350px;
+	margin: 0 auto;
+}
